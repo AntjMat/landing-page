@@ -89,22 +89,41 @@ ul {
     flex-direction: column;
 }
 
-.random-content {
-    display: flex;
-    justify-content: center;
-}
-
-.information-head {
+.random-head {
     font-weight: bolder;
     font-size: 36px;
     margin: auto;
+    padding: 15px;
+}
+
+.random-content {
+    display: flex;
+    gap: 55px;
+    margin: 0 auto;
+    padding: 20px;
+    padding-bottom: 100px;
 }
 
 .card {
-    width: 50px;
+    max-width: 150px;
+}
+
+.random-content .text {
+    width: 150px;
+    text-align: center;
+    padding-top: 5px;
 }
 
 .card-img {
     width: 150px;
     height: 150px;
+}
+
+.quote {
+    background-color: #e5e7eb;
+}
+
+.quote .text {
+    font-size: 36px;
+    
 }
