@@ -121,22 +121,25 @@ ul {
 
 .quote {
     background-color: #e5e7eb;
-
+    display: flex;
+    flex-direction: column;
 }
 
 .quote .text {
+    display: flex;
     max-width: 765px;
     font-size: 36px;
     font-style: italic;
     color: #1f2937;
     margin: 0 auto;
     padding-top: 100px;
-    padding-bottom: 40px;
+    padding-bottom: 20px;
 }
 
 .author {
-    display: flex;
-    width: 225px;
-    justify-content: flex-end;
-   
+    align-self: center;
+    font-weight: bold;
+    font-size: larger;
+    padding-bottom: 50px;
+    padding-left: 500px;
 }
