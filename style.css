@@ -58,7 +58,6 @@ ul {
 .hero {
     display: flex;
     padding-bottom: 100px;
-    justify-content: ;
 }
 
 .hero-left {
@@ -144,3 +143,41 @@ ul {
     padding-left: 500px;
 }
 
+.cta {
+    padding: 35px;
+    padding-bottom: 50px;
+}
+
+.cta-square {
+    display: flex;
+    background-color: #3882f6;
+    max-width: 1000px;
+    margin: auto;
+    border-radius: 20px;
+    padding: 30px;
+    
+}
+
+.cta .text {
+    font-weight: bold;
+    font-size: large;
+    color: white;
+}
+
+.cta .subtext {
+    color: white;
+}
+
+.cta-button {
+    margin: auto;
+}
+
+.footer {
+    padding: 40px;
+    display: flex;
+}
+
+.footer-text {
+    color: white;
+    margin: auto;
+}
